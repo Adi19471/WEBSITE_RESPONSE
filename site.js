@@ -245,22 +245,6 @@ function removeFromCart(itemId) {
 
 
 
-/*
- * Animate through a series of images with jQuery
- *
- * Given a <ul> containing a bunch of images in its list items (see the example
- * HTML file), this script collapses the list into one image, and fades between
- * the images indefinitely. (Animation is disabled if the user mouses over the
- * image.) The amount of time each image is shown and the speed of the animation
- * are configurable.
- *
- * Adapted by Benjamin Esham (http://www.bdesham.info) from a jQuery
- * [tutorial][] by Kevin Liew. This version removes the caption and tightens up
- * the code, making it work correctly with jQuery 1.6. Benjamin Esham releases
- * his changes into the public domain.
- *
- * [tutorial]: http://www.queness.com/post/1450/jquery-photo-slide-show-with-slick-caption-tutorial-revisited
- */
 
 // length of time (in milliseconds) each transition (e.g. fading in) will take
 

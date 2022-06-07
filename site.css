@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 
+
+/* Body Display tag  */
+
 body {
     background: #0c2461;
     border: 10px solid rgb(230, 230, 230);
@@ -55,6 +58,9 @@ body {
     display: block;
     animation: zoom 1s ease;
 }
+
+
+/* animazions updates */
 
 @keyframes zoom {
     0% {
@@ -550,6 +556,13 @@ footer {
 }
 
 
+/* video  play  */
+
+.video {
+    margin-left: 55px;
+}
+
+
 /* media queries for responsive view */
 
 @media only screen and (min-width: 800px) {
@@ -634,6 +647,11 @@ footer {
         left: 0;
         display: none;
         transition: all 0.3s ease-in-out;
+    }
+    .video {
+        width: -10px;
+        margin-left: -20px;
+        height: 50px;
     }
 }
 
