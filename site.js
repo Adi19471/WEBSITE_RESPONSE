@@ -389,7 +389,7 @@ $(document).ready(function() {
             $("#myimg").animate({
                 top: "300px",
                 width: "250px"
-            }, 1000, Bounce)
+            }, 7000, Bounce)
         });
     }
     Bounce();
