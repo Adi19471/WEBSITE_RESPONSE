@@ -9,17 +9,15 @@
     <title>~::MobileResponsive::~</title>
 
     <!-- css file -->
-    <link rel="stylesheet" href="/site.css">
+    <link rel="stylesheet" href="site.css">
 
     <!-- font awesome icon -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- jquery link -->
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 
-    <!-- 
-    <!-- boostarp images  -->
-
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js">
+    </script>
 
 
 
@@ -28,13 +26,13 @@
 
 
 
-
 <body>
     <nav>
-
-
         <br>
-        <div class="nav-responsive"><img src="https://cdn.pixabay.com/photo/2016/11/29/12/30/phone-1869510_1280.jpg" alt="image" class="logo" id="logo">
+        <div class="nav-responsive">
+
+
+            <img src="https://cdn.pixabay.com/photo/2016/11/29/12/30/phone-1869510_1280.jpg" alt="image" class="logo" id="logo">
             <div class="nav-search"><a href=""><i class="fa fa-search" id="find"></i></a><input type="text" id="search" placeholder="Search your items">
                 <center>
                     <h3>
@@ -42,25 +40,26 @@
                     </h3>
                 </center>
             </div>
-            <div class="access"><a href="#" id="notification"><i class="fa fa-bell"></i></a><a href="#" id="cart"><i class="fa fa-shopping-cart"></i></a><a href="#" id="bars"><i class="fa fa-bars"></i></a><a href="#" id="account"><i class="fa fa-user-circle-o"></i></a></div>
+            <div class="access">
+                <a href="/" id="notification"><i class="fa fa-bell"></i></a><a href="" id="cart"><i class="fa fa-shopping-cart"></i></a><a href="#" id="bars"><i class="fa fa-bars"></i></a><a href="#" id="account"><i class="fa fa-user-circle-o"></i></a></div>
         </div><br><br><br>
 
         <div class="slider">
             <div class="slider-items">
                 <div class="item active">
-                    <img src="images/one.jpg" />
+                    <img id="myimg" src="images/one.jpg" />
                     <div class="caption">
                         New Mobile 1
                     </div>
                 </div>
                 <div class="item">
-                    <img src="images/cur3.jpg" />
+                    <img id="myimg" src="images/cur3.jpg" />
                     <div class="caption">
                         New Mobile 2
                     </div>
                 </div>
                 <div class="item">
-                    <img src="images/cur1.jpg" />
+                    <img id="myimg" src="images/cur1.jpg" />
                     <div class="caption">
                         New Mobile 3
                     </div>
@@ -68,13 +67,13 @@
 
 
                 <div class="item">
-                    <img src="images/five.jpg" />
+                    <img id="myimg" src="images/five.jpg" />
                     <div class="caption">
                         New Mobile 2
                     </div>
                 </div>
                 <div class="item">
-                    <img src="images/four.jpg" />
+                    <img id="myimg" src="images/four.jpg" />
                     <div class="caption">
                         New Mobile 3
                     </div>
@@ -134,7 +133,7 @@
                     <h3 id="item-price">Price: $ 190</h3>
                 </div>
                 <div class="item-container" id="1">
-                    <div class="card-item"><img src="/images/samGalaxynote20.jpg" alt="img" id="card-img">
+                    <div class="card-item"><img src="/images/sum.jpg" alt="img" id="card-img">
                         <p id="item-name">Samsung Galaxy Note 20 Ultra 5G</p>
                     </div><i class="fa fa-shopping-cart" id="add-to-cart"></i>
                     <h3 id="item-price">Price: $ 300</h3>
@@ -327,8 +326,9 @@
                     <p id="spec"><strong>Specification :</strong>
                         <ul>
                             <li>13MP AI triple main camera+2MP bokeh (depth of field) camera+2MP macro camera with photo, video, professional mode panorama, portrait, time-lapse etc. | 16MP front punch hole camera</li>
-                            <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </li>
-                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil maxime reiciendis laborum! Velit odit molestias architecto doloremque est sapiente. </li>
+
+                            <li>mobile phone that will keep you entertained and productive at the same time. Its 16.5 cm (6.5) Large HD+ Display ensures that you get an expansive view of movies, games, and even work-related docs for a more immersive experience.
+                            </li>
                         </ul>
                     </p><button id="carts">Add to Cart</button><button id="buy">Back</button></div>
             </div>

@@ -356,3 +356,41 @@ function next(direction) {
     slides[index].classList.add("active");
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// imagejquery cursole 
+
+
+
+
+$(document).ready(function() {
+    function Bounce() {
+        $("#myimg").animate({
+            top: "100px",
+            width: "1000px"
+        }, 1000, function() {
+            $("#myimg").animate({
+                top: "300px",
+                width: "250px"
+            }, 1000, Bounce)
+        });
+    }
+    Bounce();
+})
